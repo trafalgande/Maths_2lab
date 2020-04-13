@@ -8,7 +8,6 @@ import org.apache.commons.math3.analysis.integration.TrapezoidIntegrator;
 @Data
 public class TrapezoidMethod {
     private UnivariateFunction univariateFunction;
-    //    private SimpsonIntegrator trapezoidIntegrator;
     private TrapezoidIntegrator trapezoidIntegrator;
     private double lowerBound;
     private double upperBound;
